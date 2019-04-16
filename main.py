@@ -36,7 +36,7 @@ config = Config(sentence_max_size=50,
                 learning_rate=args.lr,
                 cuda=args.gpu,
                 epoch=args.epoch,
-                out_channel=args.out_channel)
+                out_channel="/bigd/jinqianyu/output")
 
 training_set = TextDataset(path='data/train')
 
